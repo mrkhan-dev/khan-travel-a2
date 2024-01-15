@@ -177,7 +177,25 @@ nav li > a {
   .btn {
     /* flex-direction: column; */
     width: 100%;
-    gap: 16px;
+    gap: 60px;
+  }
+
+  .btn {
+    gap: 0px;
+  }
+
+  .fa-angle-down {
+    margin-left: 210px;
+  }
+
+  .find {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fa-magnifying-glass {
+    margin-right: 10px;
+    font-size: 24px;
   }
 
   .banner-title {
