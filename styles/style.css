@@ -222,6 +222,54 @@ nav li > a {
   margin-bottom: 24px;
 }
 
+.image-gallery {
+  position: relative;
+  text-align: center;
+}
+
+figcaption {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.maldives {
+  top: 140px;
+  left: 220px;
+}
+
+.indonesia {
+  top: 140px;
+  right: 220px;
+}
+
+.srilanka {
+  top: 440px;
+  left: 130px;
+}
+
+.north-america {
+  top: 440px;
+  right: 430px;
+}
+
+.kashmir {
+  top: 440px;
+  right: 85px;
+}
+
+.ban {
+  top: 770px;
+  left: 155px;
+}
+
+.monkeyban {
+  top: 770px;
+  right: 250px;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 600px) {
@@ -320,5 +368,54 @@ nav li > a {
   .popular-tour-image img {
     max-width: 470px;
     margin-left: -8px;
+  }
+
+  /* destination section */
+  .row {
+    flex-direction: column;
+  }
+
+  .row img {
+    height: 40vh;
+  }
+
+  .destination-description {
+    width: 408px;
+    margin-top: 8px;
+  }
+
+  .maldivs {
+    top: 131px;
+    left: 191px;
+  }
+
+  .indonesia {
+    top: 462px;
+    right: 186px;
+  }
+
+  .srilanka {
+    top: 787px;
+    left: 185px;
+  }
+
+  .north-america {
+    top: 1108px;
+    right: 160px;
+  }
+
+  .kashmir {
+    top: 1433px;
+    right: 199px;
+  }
+
+  .ban {
+    top: 1753px;
+    left: 167px;
+  }
+
+  .monkeyban {
+    top: 2082px;
+    right: 172px;
   }
 }
