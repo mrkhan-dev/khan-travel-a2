@@ -270,6 +270,82 @@ figcaption {
   right: 250px;
 }
 
+/* services */
+.service {
+  margin-top: 76px;
+}
+
+.service-title {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.service-description {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  width: 643px;
+  margin: 0 auto;
+}
+
+.service-card {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  justify-content: center;
+}
+
+.card-logo {
+  padding: 32px 0 0 32px;
+}
+
+.card-title {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-left: 32px;
+  padding: 0 32px;
+  margin-top: 32px;
+}
+
+.card-description {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 32px;
+  padding-right: 55px;
+  margin-right: 16px;
+  padding-bottom: 32px;
+}
+
+.card-1 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.card-3 {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 600px) {
@@ -417,5 +493,18 @@ figcaption {
   .monkeyban {
     top: 2082px;
     right: 172px;
+  }
+
+  /* services-section */
+  .service-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .service-description {
+    width: 435px;
+  }
+
+  .card-3 {
+    width: 100%;
   }
 }
