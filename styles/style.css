@@ -11,8 +11,6 @@ body {
   font-family: "Mulish", sans-serif;
   width: 1170px;
   margin: 0 auto;
-  border-left: 1px solid #131318;
-  border-right: 1px solid #131318;
 }
 
 /* Header section start */
@@ -297,8 +295,9 @@ figcaption {
 
 .service-card {
   margin-top: 48px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  display: flex;
   gap: 24px;
   justify-content: center;
 }
@@ -504,6 +503,78 @@ input[type="submit"] {
   position: relative;
 }
 
+/* footer section */
+.footer-element {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  padding-top: 110px;
+}
+
+.footer-description {
+  color: #5a5a5d;
+  font-weight: 400;
+  line-height: 26px;
+  width: 769px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.social-icons ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.social-icons ul > li {
+  list-style-type: none;
+  color: #131318;
+}
+
+.social-icons a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #131318;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+.hr-2 {
+  background: rgba(19, 19, 24, 0.1);
+  margin-bottom: 50px;
+}
+
+.reserved {
+  text-align: center;
+  color: #131318;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 110px;
+}
+
+/* campaign section */
+.campaign {
+  background-image: url("../Images/10000000.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  border-radius: 16px;
+  margin-top: 100px;
+}
+
+.campaign h1 {
+  color: #fff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 180px;
+  font-weight: 800;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 600px) {
@@ -600,8 +671,8 @@ input[type="submit"] {
   }
 
   .popular-tour-image img {
-    max-width: 470px;
-    margin-left: -8px;
+    width: 497px;
+    margin-left: -19px;
   }
 
   /* destination section */
@@ -691,5 +762,13 @@ input[type="submit"] {
 
   .newsletter {
     width: 499px;
+  }
+
+  .footer-element {
+    width: 100%;
+  }
+
+  .footer-description {
+    width: 489px;
   }
 }
