@@ -400,6 +400,110 @@ figcaption {
   line-height: 36px;
 }
 
+/* newsletter section */
+.newsletter-section {
+  margin-top: 100px;
+  justify-content: space-between;
+  display: flex;
+  gap: 24px;
+}
+
+.newsletter {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  width: 474px;
+  height: 422px;
+}
+
+.newsletter-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.newsletter-description {
+  color: #5a5a5d;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 40px;
+  margin-top: 16px;
+  width: 350px;
+  margin-bottom: 24px;
+}
+
+.hr-1 {
+  width: 393px;
+  height: 1px;
+  margin: 0 auto;
+  background: rgba(19, 19, 24, 0.1);
+  margin-bottom: 24px;
+}
+
+input {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin: 0 auto;
+  border: 0;
+  margin-bottom: 16px;
+  padding: 16px 251px 16px 20px;
+}
+
+input[type="submit"] {
+  text-align: center;
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0 auto;
+  border: 0;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.discount-card {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 52px;
+  left: 340px;
+}
+
+.discount-card > p {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.discount-card > h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.travel-discount {
+  position: relative;
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 600px) {
@@ -570,5 +674,22 @@ figcaption {
   .place-image-caption {
     top: 30%;
     left: 22%;
+  }
+  /* newsletter section */
+  .newsletter-section {
+    flex-direction: column;
+  }
+
+  .travel-discount img {
+    width: 100%;
+  }
+
+  .discount-card {
+    bottom: 53px;
+    left: 154px;
+  }
+
+  .newsletter {
+    width: 499px;
   }
 }
