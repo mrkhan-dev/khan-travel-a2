@@ -9,6 +9,11 @@
 
 body {
   font-family: "Mulish", sans-serif;
+  /* width: 1170px;
+  margin: 0 auto; */
+}
+
+.main-container {
   width: 1170px;
   margin: 0 auto;
 }
@@ -402,9 +407,11 @@ figcaption {
 /* newsletter section */
 .newsletter-section {
   margin-top: 100px;
-  justify-content: space-between;
+}
+
+.newsletter-main {
   display: flex;
-  gap: 24px;
+  justify-content: space-between;
 }
 
 .newsletter {
@@ -504,12 +511,16 @@ input[type="submit"] {
 }
 
 /* footer section */
-.footer-element {
+footer {
   width: 100%;
+  margin-top: 100px;
+  background: rgba(19, 19, 24, 0.05);
+}
+.footer-title {
+  padding-top: 100px;
   display: flex;
   gap: 16px;
   justify-content: center;
-  padding-top: 110px;
 }
 
 .footer-description {
@@ -543,8 +554,10 @@ input[type="submit"] {
 }
 
 .hr-2 {
-  background: rgba(19, 19, 24, 0.1);
+  border-color: rgba(19, 19, 24, 0.1);
   margin-bottom: 50px;
+  width: 900px;
+  margin: 0 auto;
 }
 
 .reserved {
@@ -553,7 +566,8 @@ input[type="submit"] {
   font-family: Inter;
   font-size: 16px;
   font-weight: 300;
-  margin-bottom: 110px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 /* campaign section */
@@ -576,199 +590,3 @@ input[type="submit"] {
 }
 
 /* responsive media query */
-
-@media screen and (max-width: 600px) {
-  .body {
-    max-width: 500px;
-    margin: 0 auto;
-    border-left: 1px solid rgb(230, 0, 0);
-    border-right: 1px solid #131318;
-  }
-  nav {
-    /* flex-direction: column; */
-    width: 100%;
-    align-items: center;
-  }
-
-  .three-line {
-    display: block;
-  }
-
-  nav ul {
-    flex-direction: column;
-    margin-top: 20px;
-    display: none;
-  }
-
-  .three-line i {
-    font-size: 24px;
-    stroke-width: 1.5px;
-    stroke: #131318;
-  }
-
-  .nav-container {
-    justify-content: center;
-  }
-
-  /* banner section */
-  .banner {
-    background-size: 79vh 79vh;
-    padding: 0 20px;
-    height: 600px;
-    border-radius: 16px;
-  }
-
-  .btn-group {
-    flex-direction: column;
-    gap: 16px;
-    margin: 0 24px;
-  }
-
-  .btn {
-    /* flex-direction: column; */
-    width: 100%;
-    gap: 60px;
-  }
-
-  .btn {
-    gap: 0px;
-  }
-
-  .fa-angle-down {
-    margin-left: 210px;
-  }
-
-  .find {
-    align-items: center;
-    justify-content: center;
-  }
-
-  .fa-magnifying-glass {
-    margin-right: 10;
-    font-size: 24px;
-  }
-
-  .banner-title {
-    font-size: 1.5rem;
-    padding: 0;
-    text-align: center;
-    padding-top: 32px;
-  }
-
-  .banner-description {
-    padding: 8px 16px 0 16px;
-    margin-bottom: 32px;
-  }
-
-  /* popular tour section */
-  .popular-tour-section {
-    flex-direction: column;
-    padding: 0 20px;
-  }
-
-  .popular-tour-content {
-    margin-left: -20px;
-  }
-
-  .popular-tour-image img {
-    width: 497px;
-    margin-left: -19px;
-  }
-
-  /* destination section */
-  .row {
-    flex-direction: column;
-  }
-
-  .row img {
-    height: 40vh;
-  }
-
-  .destination-description {
-    width: 408px;
-    margin-top: 8px;
-  }
-
-  .maldivs {
-    top: 131px;
-    left: 191px;
-  }
-
-  .indonesia {
-    top: 462px;
-    right: 186px;
-  }
-
-  .srilanka {
-    top: 787px;
-    left: 185px;
-  }
-
-  .north-america {
-    top: 1108px;
-    right: 160px;
-  }
-
-  .kashmir {
-    top: 1433px;
-    right: 199px;
-  }
-
-  .ban {
-    top: 1753px;
-    left: 167px;
-  }
-
-  .monkeyban {
-    top: 2082px;
-    right: 172px;
-  }
-
-  /* services-section */
-  .service-card {
-    display: flex;
-    flex-direction: column;
-  }
-  .service-description {
-    width: 435px;
-  }
-
-  .card-3 {
-    width: 100%;
-  }
-
-  /* simple place section */
-  .place {
-    flex-direction: column;
-  }
-
-  .place-image-caption {
-    top: 30%;
-    left: 22%;
-  }
-  /* newsletter section */
-  .newsletter-section {
-    flex-direction: column;
-  }
-
-  .travel-discount img {
-    width: 100%;
-  }
-
-  .discount-card {
-    bottom: 53px;
-    left: 154px;
-  }
-
-  .newsletter {
-    width: 499px;
-  }
-
-  .footer-element {
-    width: 100%;
-  }
-
-  .footer-description {
-    width: 489px;
-  }
-}

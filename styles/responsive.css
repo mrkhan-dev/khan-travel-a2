@@ -1,0 +1,204 @@
+/* responsive media query */
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  nav {
+    /* flex-direction: column; */
+    width: 100%;
+    align-items: center;
+  }
+
+  .three-line {
+    display: block;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-top: 20px;
+    display: none;
+  }
+
+  .three-line i {
+    font-size: 24px;
+    stroke-width: 1.5px;
+    stroke: #131318;
+  }
+
+  .nav-container {
+    justify-content: center;
+  }
+
+  /* banner section */
+  .banner {
+    background-size: 79vh 79vh;
+    padding: 0 20px;
+    height: 600px;
+    border-radius: 16px;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 24px;
+  }
+
+  .btn {
+    /* flex-direction: column; */
+    width: 100%;
+    gap: 60px;
+  }
+
+  .btn {
+    gap: 0px;
+  }
+
+  .fa-angle-down {
+    margin-left: 210px;
+  }
+
+  .find {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fa-magnifying-glass {
+    margin-right: 10;
+    font-size: 24px;
+  }
+
+  .banner-title {
+    font-size: 1.5rem;
+    padding: 0;
+    text-align: center;
+    padding-top: 32px;
+  }
+
+  .banner-description {
+    padding: 8px 16px 0 16px;
+    margin-bottom: 32px;
+  }
+
+  /* popular tour section */
+  .popular-tour-section {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .popular-tour-content {
+    margin-left: -20px;
+  }
+
+  .popular-tour-image img {
+    width: 497px;
+    margin-left: -19px;
+  }
+
+  /* destination section */
+  .row {
+    flex-direction: column;
+  }
+
+  .row img {
+    height: 40vh;
+  }
+
+  .destination-description {
+    width: 408px;
+    margin-top: 8px;
+  }
+
+  .maldivs {
+    top: 131px;
+    left: 191px;
+  }
+
+  .indonesia {
+    top: 462px;
+    right: 186px;
+  }
+
+  .srilanka {
+    top: 787px;
+    left: 185px;
+  }
+
+  .north-america {
+    top: 1108px;
+    right: 160px;
+  }
+
+  .kashmir {
+    top: 1433px;
+    right: 199px;
+  }
+
+  .ban {
+    top: 1753px;
+    left: 167px;
+  }
+
+  .monkeyban {
+    top: 2082px;
+    right: 172px;
+  }
+
+  /* services-section */
+  .service-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .service-description {
+    width: 435px;
+  }
+
+  .card-3 {
+    width: 100%;
+  }
+
+  /* simple place section */
+  .place {
+    flex-direction: column;
+  }
+
+  .place-image-caption {
+    top: 30%;
+    left: 22%;
+  }
+  /* newsletter section */
+  .newsletter-main {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .travel-discount img {
+    width: 100%;
+  }
+
+  .discount-card {
+    bottom: 53px;
+    left: 154px;
+  }
+
+  .newsletter {
+    width: 499px;
+  }
+  footer {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .footer-title {
+    width: 100%;
+  }
+
+  .footer-description {
+    width: 404px;
+    margin-top: 20px;
+  }
+  .hr-2 {
+    width: 100%;
+  }
+}
