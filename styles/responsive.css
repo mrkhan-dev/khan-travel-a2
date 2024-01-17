@@ -158,6 +158,21 @@
     width: 100%;
   }
 
+  /* next vacation destination*/
+
+  .top-destinations {
+    margin-top: 30px;
+  }
+  .top-destination-image {
+    flex-direction: column;
+  }
+
+  .top-destination-image img {
+    width: 100%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    height: 300px;
+  }
   /* simple place section */
   .place {
     flex-direction: column;
@@ -166,6 +181,22 @@
   .place-image-caption {
     top: 30%;
     left: 22%;
+  }
+
+  .img-cap-1 {
+    top: 232px;
+  }
+
+  .img-cap-2 {
+    top: 552px;
+  }
+
+  .img-cap-3 {
+    top: 886px;
+  }
+
+  .img-cap-4 {
+    top: 1192px;
   }
   /* newsletter section */
   .newsletter-main {

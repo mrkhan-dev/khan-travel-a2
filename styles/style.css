@@ -352,6 +352,65 @@ figcaption {
   margin-top: 24px;
 }
 
+/* next vacation destination*/
+.top-destinations {
+  margin-top: 100px;
+}
+
+.vacation-next-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.top-destination-image {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.top-destination-image img {
+  border-radius: 16px;
+  width: 280px;
+}
+
+figcaption {
+  color: #fff;
+}
+
+.img-cap-1 {
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: 800;
+  top: 200px;
+  margin-left: 20px;
+}
+
+.img-cap-2 {
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: 800;
+  top: 200px;
+  margin-left: 20px;
+}
+
+.img-cap-3 {
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: 800;
+  top: 200px;
+  margin-left: 20px;
+}
+
+.img-cap-4 {
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: 800;
+  top: 200px;
+  margin-left: 20px;
+}
+
+/* popular place */
 .place {
   margin-top: 100px;
   display: flex;
